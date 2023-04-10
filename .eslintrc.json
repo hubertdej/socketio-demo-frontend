@@ -19,7 +19,9 @@
     "plugin:react/recommended",
     "plugin:react-hooks/recommended"
   ],
-  "rules": {},
+  "rules": {
+    "@typescript-eslint/no-non-null-assertion": "off"
+  },
   "env": {
     "browser": true,
     "jest": true
